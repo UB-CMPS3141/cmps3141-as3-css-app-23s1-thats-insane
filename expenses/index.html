@@ -8,19 +8,52 @@ Date: Sept.22.23
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Expenses</title>
+	<script src="https://mavue.mavo.io/mavue.js" type="module"></script>
+	<script src="https://get.mavo.io/mavo.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body mv-app mv-storage="local" class="mv-autoedit" mv-init="data.json">
+	<div id="app">
+		<ma-data v-model="expenses" src="https://github.com/UB-CMPS3141/cmps3141-as3-css-app-23s1-thats-insane/expenses/data.json"></ma-data>
+		<section class="expense">
+			<h2>Expense Management</h2>
+			<div property="expense" class="card" mv-multiple mv-group mv-initial-items="0">
+				<label for="expense">Type Of Expense:</label>
+				<select id="expense" name="expense">
+					<option value="personal">Personal Expense</option>
+					<option value="joint">Joint Expense</option>
+				</select><br>
+				<label for="purchaser">Purchaser:</label>
+					<select id="purchaser" name="purchaser">
+						<option value="Neo">Neo</option>
+						<option value="Trinity">Trinity</option>
+					</select><br>
+				<label for="card">Card:</label>
+					<select id="card" name="card">
+						<option value="Neo's Card">Neo's Card</option>
+						<option value="Trinity's Card">Trinity's Card</option>
+						<option value="Joint Card">Joint Card</option>
+					</select><br>
+				<label for="amount">Amount:</label>
+					<input type="number" id="amount" name="amount" step="1.00" placeholder="Enter amount paid."><br>
+				<button mv-action="add(expense, transactionHistory)" class="mv-add">Add Transaction</button>	
+			</div>
+		</section>
+		<section class="transaction-history">
+			<h2>Transaction History</h2>
+			<div property="transactionHistory" class="card" mv-multiple mv-group mv-initial-items="0"></div>
+		</section>
+		<div id="debt-history">
+			<h2>Debt History</h2>
+			<p>Neo used their card to pay for Trinity: <strong>$3,500</strong>.
+			<br>Trinity used the joint card to pay for a personal expense: <strong>$250,000</strong>.
+			<br>Trinity used their card to pay a joint expense: <strong>$81,500,000</strong>.
+			<br><br><strong>Neo</strong> owes $40,621,500.</p>
+		</div>
 
-<div id="app">
-	<!-- Replace cmps3141-as3-css_app-23s1 below with your repo name (cmps3141-as3-css_app-23s1-yourusername) so you can save!  -->
-	<ma-data v-model="expenses" src="https://github.com/UB-CMPS3141/as3-css_app-23s1/expenses/data.json"></ma-data>
-
-	<!-- App YOUR UI here -->
-
-	<!-- Delete this line when you write your actual UI -->
-	{{ expenses.length }} expenses loaded.
-</div>
+		
+		{{ expenses.length }} expenses loaded.
+	</div>
 
 <script src="index.js" type="module"></script>
 
