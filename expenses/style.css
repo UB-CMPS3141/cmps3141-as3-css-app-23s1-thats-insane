@@ -6,6 +6,7 @@ Date: Sept.22.23
 body{
 	background-image: linear-gradient(to left, #5c282883, #d3939341);
 }
+
 body > div {
 	border: 2px solid  rgb(170, 170, 170);
 	border-radius: 12px;
@@ -34,7 +35,6 @@ body > div {
 	display: inline-block;
 	font-size: 10px;
 	margin: 4px 2px;
-	transition-duration: 0.4s;
 	cursor: pointer;
 	border-radius: 20px;
 }
@@ -62,23 +62,7 @@ input[type=text], select {
     font-size: 0.7em;
 }
 
-.vt-store{
-	font-size: 18px;
-	color: rgb(70, 70, 70);
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	list-style-type: circle;
-	text-align: center;
-}
-.vt-i{
-	font-size:30px;
-	color: rgb(70, 70, 70);
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	list-style-type: circle;
-	text-align: center;
-
-}
-
-[ property="store"] {
+[ property="purchaser"] {
 	font-size: 14px;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	list-style-type: circle;
@@ -89,24 +73,15 @@ input[type=text], select {
 	font-size: 24px;
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	list-style-type: circle;
-	text-align:left;
+	text-align: left;
 }
-
+ 
 [property="amount"] {
 	font-size: 14px;
 	color: rgb(112, 74, 74);
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	list-style-type: circle;
-	text-align:left;
-}
-
-.vt-h1 {
-	font-size: 50px;
-	font-weight: 600;
-	color: rgb(112, 74, 74);
-	background-clip: text;
-	-webkit-background-clip: text;
-    text-align: center;         
+	text-align: left;
 }
 
 .card {
