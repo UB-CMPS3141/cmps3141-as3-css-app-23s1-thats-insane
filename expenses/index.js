@@ -53,13 +53,10 @@ globalThis.app = createApp ({
 					expense.formAmount
 				);
 				
-				if (expense.card === "Neo's Card" && expense.purchaser === "Trinity") {
+				if (expense.card === "Neo's Card" && expense.purchaser === "Trinity")
 					expense.trinityOwes = amount;
-					this.trinityOwes += expense.trinityOwes;
-			  	} else if (expense.card === "Trinity's Card" && expense.purchaser === "Neo") {
+			  	else if (expense.card === "Trinity's Card" && expense.purchaser === "Neo")
 					expense.neoOwes = amount;
-					this.neoOwes += expense.neoOwes;
-			  	}
 			} else if (expense.expenseType === "Joint" || expense.card === "Joint Card") {
 				amount = this.currencyConvert(
 					expense.currency,
@@ -67,13 +64,10 @@ globalThis.app = createApp ({
 					expense.formAmount / 2
 				);
 				
-				if (expense.card === "Neo's Card" || expense.purchaser === "Trinity") {
+				if (expense.card === "Neo's Card" || expense.purchaser === "Trinity")
 					expense.trinityOwes = amount;
-					this.trinityOwes += expense.trinityOwes;
-				} else if (expense.card === "Trinity's Card"  && expense.purchaser === "Neo") {
+				else if (expense.card === "Trinity's Card"  && expense.purchaser === "Neo")
 					expense.neoOwes = amount;
-					this.neoOwes += expense.neoOwes;
-				}
 			}
 		  
 			this.form.purchaser = "";
