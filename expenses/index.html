@@ -25,21 +25,21 @@ Date: Sept.22.23
 						</div><div class="card">
 							<label for="expenseType">Type Of Expense:</label>
 								<select id="expenseType" name="expenseType">
-									<option value="personal">Personal Expense</option>
-									<option value="joint">Joint Expense</option>
+									<option value="Personal">Personal Expense</option>
+									<option value="Joint">Joint Expense</option>
 								</select>
 						</div><div class="card">
 							<label for="purchaser">Purchaser:</label>
 								<select id="purchaser" name="purchaser" required>
-									<option value="neo">Neo</option>
-									<option value="trinity">Trinity</option>
+									<option value="Neo">Neo</option>
+									<option value="Trinity">Trinity</option>
 								</select>
 						</div><div class="card">
 							<label for="card">Card:</label>
 								<select id="card" name="card" required>
-									<option value="neoCard">Neo's Card</option>
-									<option value="trinityCard">Trinity's Card</option>
-									<option value="jointCard">Joint Card</option>
+									<option value="Neo's Card">Neo's Card</option>
+									<option value="Trinity Card">Trinity's Card</option>
+									<option value="Joint Card">Joint Card</option>
 								</select>
 						</div><div class="card">
 							<label for="amount">Amount:</label>
@@ -72,7 +72,7 @@ Date: Sept.22.23
 					<td>{{expense.expenseType}}</td>
 					<td>{{expense.purchaser}}</td>
 					<td>{{expense.card}}</td>
-					<td>{{expense.amount}} {{expense.currency}}</td>
+					<td>${{expense.amount}} {{expense.currency}}</td>
 				</tr>
 				</table>
 			</section>
@@ -85,7 +85,6 @@ Date: Sept.22.23
 						<td>{{(neoOwes-trinityOwes).toFixed(2)}} BZD</td>
 						</table>
 					</td>
-			
 					<td>
 						<table>
 						<td>Total Trinity Owes:</td>
@@ -97,6 +96,6 @@ Date: Sept.22.23
 			</div>
 		</v-app>
 	</div>
-<script src="index.js" type="module"></script>
+	<script src="index.js" type="module"></script>
 </body>
 </html>
