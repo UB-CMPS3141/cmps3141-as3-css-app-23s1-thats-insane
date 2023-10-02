@@ -1,225 +1,514 @@
 [
 	{
 		"title": "Rent, Sept 2023",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Locksmith ",
-		"neo_paid": 200
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 200,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Sep 2023",
-		"trinity_paid": 2283
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2283,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner",
-		"trinity_paid": 200
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 200,
+		"currency": "BZD"
 	},
 	{
 		"title": "Trinity Laptop repair ",
-		"neo_paid": 922
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 922,
+		"currency": "BZD"
 	},
 	{
 		"title": "Rent Oct 2023",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Oct 2023",
-		"trinity_paid": 4984
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 4984,
+		"currency": "BZD"
 	},
 	{
 		"title": "Trinity implant payment 2",
-		"neo_paid_for_trinity": 830
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 830,
+		"currency": "BZD"
 	},
 	{
 		"title": "Rent Nov 2023",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Trinity phone case",
-		"neo_paid": 53
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 53,
+		"currency": "BZD"
 	},
 	{
 		"title": "Trinity new boots ",
-		"neo_paid": 200
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 200,
+		"currency": "BZD"
 	},
 	{
 		"title": "Neo new boots ",
-		"trinity_paid": 56
+		"expenseType": "personal",
+		"purchaser": "neo",
+		"card": "trinityCard",
+		"amount": 56,
+		"currency": "BZD"
 	},
 	{
 		"title": "Electricity bill Oct-Nov 2023",
-		"neo_paid": 192.08
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 192.08,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Nov 2023",
-		"trinity_paid": 477.66,
-		"neo_paid": 2000
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 2000,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card Nov 2023",
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 477.66,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner Nov 2023",
-		"trinity_paid": 100
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 100,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Dec 2023",
-		"trinity_paid": 992,
-		"neo_paid": 2000
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 992,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card Dec 2023",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 2000,
+		"currency": "BZD"
 	},
 	{
 		"title": "Rent Jan 2022",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Jan 2022",
-		"trinity_paid": 350.51,
-		"neo_paid": 2600
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 350.51,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card Jan 2022",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 2600,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Feb 2022",
-		"neo_paid": 1685.47
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 1685.47,
+		"currency": "BZD"
 	},
 	{
 		"title": "Old joint card Feb 2022",
-		"trinity_paid": 46.85
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 46.85,
+		"currency": "BZD"
 	},
 	{
 		"title": "Rent Mar 2022",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 19/2",
-		"trinity_paid": 120
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 120,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 26/2",
-		"trinity_paid": 100
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 100,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Mar 2022",
-		"trinity_paid": 2250.49
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2250.49,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 12/3",
-		"trinity_paid": 110
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 110,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 19/3",
-		"trinity_paid": 100
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 100,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 26/3",
-		"trinity_paid": 100
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 100,
+		"currency": "BZD"
 	},
 	{
 		"title": "Rent April 2022",
-		"trinity_paid": 3553
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3553,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 2/4",
-		"trinity_paid": 110
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 110,
+		"currency": "BZD"
 	},
 	{
 		"title": "Electricity bill",
-		"neo_paid": 469
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 469,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card Apr 2022",
-		"trinity_paid": 2736.91,
-		"neo_paid": 2200
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2736.91,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card Apr 2022",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 2200,
+		"currency": "BZD"
 	},
 	{
 		"title": "Cleaner 17/4",
-		"trinity_paid": 155
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 155,
+		"currency": "BZD"
 	},
 	{
 		"title": "Movers",
-		"trinity_paid": 1500,
-		"neo_paid": 510
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 1500,
+		"currency": "BZD"
+	},
+	{
+		"title": "Movers",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 510,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card May 2022",
-		"trinity_paid": 3105,
-		"neo_paid": 3800
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 3105,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card May 2022",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 3800,
+		"currency": "BZD"
 	},
 	{
 		"title": "🍕",
-		"neo_paid": 39
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 39,
+		"currency": "BZD"
 	},
 	{
 		"title": "Laser",
-		"neo_paid": 60
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 60,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card June 2022",
-		"trinity_paid": 1533,
-		"neo_paid": 2000
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 1533,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card June 2022",
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2000,
+		"currency": "BZD"
 	},
 	{
 		"title": "Gas",
-		"neo_paid": 67
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 67,
+		"currency": "BZD"
 	},
 	{
 		"title": "Anniversary dinner",
-		"neo_paid": 302
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 302,
+		"currency": "BZD"
 	},
 	{
 		"title": "Gas",
-		"neo_paid": 57
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 57,
+		"currency": "BZD"
 	},
 	{
 		"title": "🍣 dinner",
-		"neo_paid": 135
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 135,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card 7/10",
-		"trinity_paid": 6410,
-		"neo_paid": 2000
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2000,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card 7/10",
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 6410,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card 8/11",
-		"trinity_paid": 2446,
-		"neo_paid": 4000
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2446,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card 8/11",
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 4000,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card 9/12/22",
-		"trinity_paid": 2566,
-		"neo_paid": 2000
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2566,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card 9/12/22",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 2000,
+		"currency": "BZD"
 	},
 	{
 		"title": "Neo prescriptions",
-		"trinity_paid_for_neo": 50
+		"expenseType": "personal",
+		"purchaser": "neo",
+		"card": "trinityCard",
+		"amount": 50,
+		"currency": "BZD"
 	},
 	{
 		"title": "Trinity leggings",
-		"neo_paid": 94
+		"expenseType": "personal",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 94,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint credit card 3/1",
-		"trinity_paid": 2500,
-		"neo_paid": 1500
+		"expenseType": "joint",
+		"purchaser": "trinity",
+		"card": "trinityCard",
+		"amount": 2500,
+		"currency": "BZD"
+	},
+	{
+		"title": "Joint credit card 3/1",
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 1500,
+		"currency": "BZD"
 	},
 	{
 		"title": "Withdrawal 7/1",
-		"neo_paid": 683
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 683,
+		"currency": "BZD"
 	},
 	{
 		"title": "Joint card ",
-		"neo_paid": 1016
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 1016,
+		"currency": "BZD"
 	},
 	{
 		"title": "Withdrawal",
-		"neo_paid": 56
+		"expenseType": "joint",
+		"purchaser": "neo",
+		"card": "neoCard",
+		"amount": 56,
+		"currency": "BZD"
 	},
 	{
 		"title": "Neo new sunglasses deposit",
-		"trinity_paid": 238
+		"expenseType": "personal",
+		"purchaser": "neo",
+		"card": "trinityCard",
+		"amount": 238,
+		"currency": "BZD"
 	},
 	{
 		"title": "Laser",
-		"neo_paid": 57
+		"expenseType": "personal",
+		"purchaser": "trinity",
+		"card": "neoCard",
+		"amount": 57,
+		"currency": "BZD"
 	},
 	{
 		"title": "Neo blue pills (3 bottles)",
-		"trinity_paid": 305
+		"expenseType": "personal",
+		"purchaser": "neo",
+		"card": "trinityCard",
+		"amount": 305,
+		"currency": "BZD"
 	}
 ]

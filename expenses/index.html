@@ -1,7 +1,7 @@
 <!--CMPS3141-HCI - AS3-23S1
-Collaborators:
+Collaborators: Cahlil Tillett
 Date: Sept.22.23
- -->
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,6 @@ Date: Sept.22.23
 	<title>Expenses</title>
 	<script src="https://mavue.mavo.io/mavue.js" type="module"></script>
 	<script src="https://mavue.mavo.io/ma-data/ma-data.js" type="module"></script>
-	<script src="https://get.mavo.io/mavo.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body mv-app mv-storage="local" class="mv-autoedit" mv-init="data.json">
@@ -19,22 +18,83 @@ Date: Sept.22.23
 			<ma-data v-model="expenses" src="https://github.com/UB-CMPS3141/cmps3141-as3-css-app-23s1-thats-insane/expenses/data.json"></ma-data>
 			<section class="expense-management">
 				<h2>Expense Management</h2>
-				<div property="expense" class="card" mv-multiple mv-group mv-initial-items="0">
-					<div property="name">Title</div>
-					<span property="purchaser">Purchaser</span>
-					<span property="amount">Amount</span><br>
-					<span property="currency">Currency</span>
-					<button mv-action="add(expense, transactionHistory)" class="mv-add">Add Transaction</button>	
-				</div>
-			</section>
-			<section class="transaction-history">
-				<h2>Transaction History</h2>
-				<div property="transactionHistory" class="card" mv-multiple mv-group mv-initial-items="0"></div>
-				<article v-for="expense in expenses">
-					Neo paid ${{ neo_paid + neo_paid_for_trinity }} and/or Trinity paid ${{ trinity_paid + trinity_paid_for_neo }} for {{ title }}
-				</article>
+					<form>
+						<div class="card">
+							<label for="title">Description:</label>
+								<input type="text" id="title" name="title" required>
+						</div><div class="card">
+							<label for="expenseType">Type Of Expense:</label>
+								<select id="expenseType" name="expenseType">
+									<option value="personal">Personal Expense</option>
+									<option value="joint">Joint Expense</option>
+								</select>
+						</div><div class="card">
+							<label for="purchaser">Purchaser:</label>
+								<select id="purchaser" name="purchaser" required>
+									<option value="neo">Neo</option>
+									<option value="trinity">Trinity</option>
+								</select>
+						</div><div class="card">
+							<label for="card">Card:</label>
+								<select id="card" name="card" required>
+									<option value="neoCard">Neo's Card</option>
+									<option value="trinityCard">Trinity's Card</option>
+									<option value="jointCard">Joint Card</option>
+								</select>
+						</div><div class="card">
+							<label for="amount">Amount:</label>
+								<input type="number" id="amount" name="amount" step="1.00" min="0.01" placeholder="Enter amount paid." required>
+						</div><div class="card">
+							<label for="currency">Currency:</label>
+								<select id="currency" name="currency" required>
+									<option value="BZD">BZD</option>
+									<option value="MXN">MXN</option>
+									<option value="GTQ">GTQ</option>
+								</select>
+						</div><div class="card">
+							<input type="submit" value="Add Transaction">
+						</div>
+					</form>
 			</section>		
 			{{ expenses.length }} expenses loaded.
+			<section class="transaction-history" v-cloak>
+				<h2>Transaction History</h2>
+				<table class="paymentTable">
+				<tr>
+					<th>Name</th>
+					<th>Type Of Expense</th>
+					<th>Purchaser</th>
+					<th>Card</th>
+					<th>Amount</th>
+				</tr>
+				<tr v-for="(expense, index) in expenses" :key="expense.id">
+					<td>{{expense.title}}</td>
+					<td>{{expense.expenseType}}</td>
+					<td>{{expense.purchaser}}</td>
+					<td>{{expense.card}}</td>
+					<td>{{expense.amount}} {{expense.currency}}</td>
+				</tr>
+				</table>
+			</section>
+				<table>
+					<tr>
+					<h3>Debt Summmary</h3>
+					<td>
+						<table>
+						<td>Total Neo Owes:</td>
+						<td>{{(neoOwes-trinityOwes).toFixed(2)}} BZD</td>
+						</table>
+					</td>
+			
+					<td>
+						<table>
+						<td>Total Trinity Owes:</td>
+						<td>{{(trinityOwes-neoOwes).toFixed(2)}} BZD</td>
+						</table>
+					</td>
+					</tr>
+				</table>
+			</div>
 		</v-app>
 	</div>
 <script src="index.js" type="module"></script>
